@@ -13,7 +13,7 @@ const firebaseConfig = {
   storageBucket: "solopermutas-1a33f.firebasestorage.app",
   messagingSenderId: "260526801148",
   appId: "1:260526801148:web:4741604c2f5f89ba3e5779",
-  measurementId: "G-GFX6BWM3MN";}
+  measurementId: "G-GFX6BWM3MN"}
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
